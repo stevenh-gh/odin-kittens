@@ -42,6 +42,10 @@ group :development do
   gem 'listen', '~> 3.3'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  gem 'pry-rails', '~> 0.3.9'
+  gem 'better_errors', '~> 2.9', '>= 2.9.1'
+  gem 'binding_of_caller', '~> 1.0'
 end
 
 group :test do
