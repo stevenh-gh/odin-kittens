@@ -4,3 +4,5 @@ Name: <%= @kitten.name %><br>
 Age: <%= @kitten.age %><br>
 Cuteness: <%= @kitten.cuteness %>/10<br>
 Softness: <%= @kitten.softness %>/10<br>
+
+<%= link_to('Edit', edit_kitten_path) %> <%= link_to('Delete', kitten_path, method: :delete) %>

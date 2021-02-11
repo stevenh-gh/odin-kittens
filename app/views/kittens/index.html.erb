@@ -8,6 +8,6 @@
   Age: <%= k.age %><br>
   Cuteness: <%= k.cuteness %>/10<br>
   Softness: <%= k.softness %>/10<br>
-  <%= link_to 'More info', kitten_path(k) %><br>
+  <%= link_to('More info', kitten_path(k)) %> <%= link_to('Edit', edit_kitten_path(k)) %> <%= link_to('Delete', kitten_path(k), method: :delete) %><br>
   <br>
 <% end %>
