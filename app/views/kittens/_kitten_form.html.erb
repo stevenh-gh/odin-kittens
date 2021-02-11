@@ -1,0 +1,7 @@
+<%= form_with(model: @kitten) do |f| %>
+  Name: <%= f.text_field(:name, autofocus:true) %><br>
+  Age: <%= f.text_field(:age) %><br>
+  Cuteness: <%= f.text_field(:cuteness) %>/10<br>
+  Softness: <%= f.text_field(:softness) %>/10<br>
+  <%= f.submit %>
+<% end %>
