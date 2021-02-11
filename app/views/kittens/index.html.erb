@@ -1,0 +1,8 @@
+<% @kittens.each do |k| %>
+  Name: <%= k.name %><br>
+  Age: <%= k.age %><br>
+  Cuteness: <%= k.cuteness %>/10<br>
+  Softness: <%= k.softness %>/10<br>
+  <%= link_to 'More info', kitten_path(k) %><br>
+  <br>
+<% end %>
