@@ -1,3 +1,8 @@
+<% flash.each do |name, msg| %>
+  <%= msg %><br>
+  <br>
+<% end %>
+
 <% @kittens.each do |k| %>
   Name: <%= k.name %><br>
   Age: <%= k.age %><br>
